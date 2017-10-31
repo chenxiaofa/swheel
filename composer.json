@@ -1,0 +1,7 @@
+{
+  "name":"chenxiaofa/swheel",
+  "require": {
+    "php": ">=5.6",
+    "ext-swoole": "*"
+  }
+}
