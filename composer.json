@@ -2,9 +2,15 @@
   "name":"chenxiaofa/swheel",
   "require": {
     "php": ">=5.6",
-    "ext-swoole": "*"
+    "corneltek/getoptionkit": "~2"
   },
   "autoload": {
     "psr-4": {"Swheel\\": "src/"}
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
   }
 }
